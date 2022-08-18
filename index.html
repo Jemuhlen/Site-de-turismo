@@ -13,22 +13,41 @@
  </head>
  <body>
    <h1>Turismo em Rolante</h1>
-    <header>
-        <nav data-menu="suave">
-            <button data-menu="button" aria-controls="menu"></button>
-           <ul data-menu="list" id="menu">
-             <a href="#home">
-             <li>Home</li>
-           </a>
-             <a href="#sobre">
-               <li>Sobre</li>
-             </a>
-             <a href="#pontos">
-             <li>Pontos</li>
-           </a>
-           </ul>
-         </nav>
-    </header>
+
+    <!--Barra de navegação-->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#topo">
+      <img src="world.png" alt="world icon" width="30px" height="30px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav md-auto">
+        <li class="nav-item dropdown active">
+    
+    <!--Home-->
+          <a class="nav-link dropdown-toggle" href="#" id="home" role="button" data-toggle="dropdown">Home</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          </div>
+        </li>
+
+        <!--Pontos turísticos-->
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="pontos" role="button" data-toggle="dropdown">Pontos</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <h5 class="dropdown-header">Morro Grande</h5>
+            <h5 class="dropdown-header">Cascata do Chuvsqueiro</h5>
+          </div>
+        </li>
+
+          <!--Sobre-->
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="sobre" role="button" data-toggle="dropdown">Sobre</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          </div>
+        </li>
 
     <footer>
 
