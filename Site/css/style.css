@@ -1,11 +1,10 @@
-/* Slider */
-
 .container-fluid {
     padding: 0;
   }
   
   #mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: 100vh;
+    height: 40vh;
+    width: 100vw;
   }
   
   #mainSlider .carousel-caption {
@@ -46,16 +45,3 @@
   .carousel-indicators .active {
     background-color: #65DAF9;
   }
-
-  /*Navbar*/
-.navbar{
-  font-family: 'Verdana', sans-serif;
-  font-size: 15px;
-  height: 50px;
-}
-
-.dropdown-menu{
-  background-color: green;
-  font-size: 12px;
-}
-
