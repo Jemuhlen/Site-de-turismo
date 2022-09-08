@@ -1,11 +1,10 @@
-/* Slider */
-
 .container-fluid {
     padding: 0;
   }
   
   #mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: 100vh;
+    height: 40vh;
+    width: 100vw;
   }
   
   #mainSlider .carousel-caption {
