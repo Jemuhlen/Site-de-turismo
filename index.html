@@ -13,20 +13,18 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
    <title>Turismo em Rolante</title>
+   <script type="text/javascript" src="jquery.js"></script>
  </head>
  <body>
   <header> 
     <div id="start">
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand">Turismo em Rolante</a>
+          <a class="navbar-brand active" href="#start"><img src="img/icone.png" class="icone"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#start">Home</a>
-              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#mapa">Mapa</a>
               </li>
@@ -41,10 +39,12 @@
                   <li><a class="dropdown-item" href="#rio">Rio</a></li>
                 </ul>
                 <li class="nav-item">
-                    <a class="nav-link" href="#sobre">Sobre</a>
+                  <a class="nav-link" href="#sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
+                  <div class="botao">
                     <a class="nav-link" href="#sugestao">Dê sua sugestão</a>
+                  </div>
                 </li>
               </li>
             </ul>
@@ -90,7 +90,20 @@
 
   <div class="container-fluid" id="pontos turísticos">
     <div class="chuvisqueiro" id="chuvisqueiro">
-      <h1>CHUV</h1>
+      <div class="clearfix">
+        <img src="img/banner1.png" class="image col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+
+        <div class="text">
+          <strong>Chuvisqueiro</strong>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper ex blandit, blandit metus sed, lacinia augue. Morbi elementum purus non arcu rhoncus, nec aliquam sem commodo. Vivamus pretium dui eu bibendum lobortis. Aenean auctor, tortor eu pellentesque imperdiet, mauris nisi lobortis augue, et finibus sapien nisl non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc placerat felis quis odio dignissim, placerat tincidunt elit vulputate. Cras non pulvinar felis. Vivamus commodo egestas tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam suscipit felis nec dui mollis, egestas sollicitudin velit varius. Pellentesque pretium molestie mauris, non volutpat metus imperdiet et. Mauris et semper ex. Vivamus mollis tempus suscipit. Nunc faucibus commodo odio, nec sollicitudin mi efficitur sit amet.
+          </p>
+
+          <p>
+            Maecenas posuere lorem sit amet facilisis tempus. Aenean varius tortor vitae suscipit varius. Etiam molestie maximus leo, sed vehicula libero iaculis vitae. Donec tincidunt eros eget lorem finibus, quis laoreet urna volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla libero tortor, vestibulum sed eros id, congue venenatis dolor. Proin lectus nisi, vestibulum ut dignissim in, maximus non urna. Nullam enim nibh, efficitur eget placerat vitae, facilisis sed nulla. 
+          </p>
+        </div>
+      </div>
     </div>
     <div class="cascata" id="cascata">
       <h1>CASC</h1>
