@@ -3,36 +3,49 @@ html, body{
   padding: 0;
   height: 100%;
   width: 100%;
-  overflow: hidden;
-  background-color: #F1EFEF ;
-}
-.navbar{
-  font-size: 15px;
-  position: sticky fixed;
 
+}
+
+.navbar{
+  background-color: #23415c;
+  padding: 1% 0;
+  font-size: 18px;
 }
 
 .navbar-brand{
-  width: 10%;
-  font-family: 'Open Sans', sans-serif;
-  margin-top: 0%;
-  margin-left: 10px;
+  min-height: 40px;
+  padding: 0 15px 5px;
+}
 
+.navbar a{
+  color: #ffff;
+}
+
+.icone{
+  width: 40px;
+  margin-left: 10px;
+}
+
+.nav-item{
+  padding: 3px;
+}
+
+.dropdown-menu{
+  background-color: #23415cac;
+}
+
+.dropdown-item{
+  color: white;
 }
 
 .container-fluid {
     padding: 0;
   }
 
-.carousel-item{
-
-}
-
 .d-block{
   height: 100vh;
   width: 100vw;
   object-fit: cover;
-
 }
 
 .carousel-item{
@@ -40,16 +53,39 @@ html, body{
     background-position: center;
 }
 
- .carousel-inner, .carousel-item {
-    padding: 0%;
-  }
-  
-  .carousel-indicators .active {
-    background-color: #65DAF9;
-  }
+.carousel-inner, .carousel-item {
+  padding: 0%;
+}
 
 .mapa, .chuvisqueiro, .cascata, .rio, .sugestao, .sobre{
   min-height: 100vh;
-  padding-top: 90px;
-  margin-left: 20px;
+  padding-top: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.clearfix{
+  padding: 10px;
+}
+
+p{
+  font-size: 15px;
+  text-align: justify;
+}
+
+@media(max-width: 700px){
+  .clearfix{
+    padding-top: 0px ;
+  }
+  .image{
+    width: 90vw;
+    align-items: center;
+  }
+}
+
+.footer {
+  padding: 5% 5% 10% 5%;
+  width: 100%;
+  background-color:#23415c;
+  color:#ffff;
 }
