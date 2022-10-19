@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -158,16 +159,64 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper ex blandit, blandit metus sed, lacinia augue. Morbi elementum purus non arcu rhoncus, nec aliquam sem commodo. Vivamus pretium dui eu bibendum lobortis. Aenean auctor, tortor eu pellentesque imperdiet, mauris nisi lobortis augue, et finibus sapien nisl non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc placerat felis quis odio dignissim, placerat tincidunt elit vulputate. Cras non pulvinar felis. Vivamus commodo egestas tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam suscipit felis nec dui mollis, egestas sollicitudin velit varius. Pellentesque pretium molestie mauris, non volutpat metus imperdiet et. Mauris et semper ex. Vivamus mollis tempus suscipit. Nunc faucibus commodo odio, nec sollicitudin mi efficitur sit amet.
     </p>
   </div>
+    <?php
+    require_once("conexao.php");
 
+    ?>
+<form method="POST">
   <div class="sugestao" id="sugestao">
     <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Coloque seu nome completo</label>
+      <input type="nome" name="nome" class="form-control" id="exampleFormControlInput1" placeholder=>
+    </div>
+    <div class="mb-3">
       <label for="exampleFormControlInput1" class="form-label">Coloque seu e-mail</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@email.com">
     </div>
     <div class="mb-3">
       <label for="exampleFormControlTextarea1" class="form-label">Deixe sua sugestão</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <textarea class="form-control" name="texto" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
+    <input type="submit" name="enviar" value="Enviar" class="btn btn_primary">
+    </form>
+    <?php
+if (isset($_POST['enviar']) == true) {
+		// codigo a ser executado se a variavel estiver definida
+
+		// usando a funcao empty para saber se um campo foi preenchido
+		if (empty($_POST["nome"]) == true) {
+			echo ("Por favor preencha o campo <b>nome</b>");
+		} else if (empty($_POST["email"])){
+			// exibindo a mensagem de erro com javascript
+			echo("Preencha o <b>email</b>");
+		}	else {
+			require_once ("conexao.php");
+			$nome = $_POST["nome"];
+			$email = $_POST["email"];
+      $texto = $_POST["texto"];
+
+	
+			$sql = "INSERT INTO pontos (nome, email, sugestao) VALUES ('$nome', '$email', '$texto') ";
+			// echo para debugar a consulta sql gerada
+			// echo ($sql);
+
+			// mandando executar a consulta sql
+			// a funcao mysqli_query retorna true se a consulta foi executada com sucesso
+			if (mysqli_query($conexao, $sql)){
+				echo ("Sugestão adicionada com sucesso!<br>");
+			} else {
+				// erro ao executar a consulta
+				echo ("Erro: $sql <br>" . mysqli_error($conexao) );
+			}
+
+			// encerrando a conexao
+			mysqli_close($conexao);
+		
+		}
+	}
+?>
+    
+    
   </div>
 
   <footer>
