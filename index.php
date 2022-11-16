@@ -86,7 +86,7 @@
 
   <div class="mapa" id="mapa">
     <h1>MAPA</h1>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27739.983987175332!2d-50.5644716!3d-29.64732015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9518e46f16da5dd1%3A0xe4d314d8d2f62c23!2sRolante%2C%20RS%2C%2095690-000!5e0!3m2!1spt-BR!2sbr!4v1665065615867!5m2!1spt-BR!2sbr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1lnMd1z4EqE5IYeDWkap7-6RfIgn6cbI&ehbc=2E312F" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
   <div class="container-fluid" id="pontos_turisticos">
