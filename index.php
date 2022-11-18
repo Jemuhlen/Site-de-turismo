@@ -45,7 +45,6 @@
                   <div class="botao">
                     <a class="nav-link" href="#sugestao">Dê sua sugestão</a>
                   </div>
-                </li>
               </li>
             </ul>
           </div>
@@ -55,11 +54,6 @@
     <main>      
     <div class="container-fluid"> 
         <div  id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="img/banner1.png" class="d-block w-100" alt="...">
@@ -159,6 +153,9 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper ex blandit, blandit metus sed, lacinia augue. Morbi elementum purus non arcu rhoncus, nec aliquam sem commodo. Vivamus pretium dui eu bibendum lobortis. Aenean auctor, tortor eu pellentesque imperdiet, mauris nisi lobortis augue, et finibus sapien nisl non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc placerat felis quis odio dignissim, placerat tincidunt elit vulputate. Cras non pulvinar felis. Vivamus commodo egestas tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam suscipit felis nec dui mollis, egestas sollicitudin velit varius. Pellentesque pretium molestie mauris, non volutpat metus imperdiet et. Mauris et semper ex. Vivamus mollis tempus suscipit. Nunc faucibus commodo odio, nec sollicitudin mi efficitur sit amet.
     </p>
   </div>
+
+
+  
     <?php
     require_once("conexao.php");
 
