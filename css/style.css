@@ -3,13 +3,17 @@ html, body{
   padding: 0;
   height: 100%;
   width: 100%;
-
 }
 
 .navbar{
-  background-color: #23415c;
+  background-color: #0a0a0a9a;
   padding: 1% 0;
-  font-size: 18px;
+  font-size: 15px;
+  height: 55px;
+}
+
+.nav-{
+  background-color: #0a0a0a9a;
 }
 
 .navbar-brand{
@@ -31,7 +35,7 @@ html, body{
 }
 
 .dropdown-menu{
-  background-color: #23415cac;
+  background-color: #000000ac;
 }
 
 .dropdown-item{
@@ -62,6 +66,9 @@ html, body{
   padding-top: 70px;
   margin-left: 10px;
   margin-right: 10px;
+}
+.mapa, .cascata, .sobre, .sugestao h1{
+  text-align: center;
 }
 
 .clearfix{
