@@ -89,6 +89,34 @@
   </div>
 
 <div class="pontos-turisticos">
+<?php
+    $conn = mysqli_connect("127.0.0.1", "root", "", "atracoes");
+    if ($conn == false){
+      die("Houve um erro ao conectar com o banco de dados");
+    }
+    $sql = "SELECT * From informacoes ORDER BY id";
+    $registros = mysqli_query($conn, $sql);
+     
+  ?>
+	<div class="card" style="width: 18rem;">
+      <img src="https://f.i.uol.com.br/fotografia/2021/12/02/163847419161a921cf098ba_1638474191_3x2_md.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text"><?php
+        
+        $conn = mysqli_connect("127.0.0.1", "root", "", "atracoes");
+        if ($conn == false){
+          die("Houve um erro ao conectar com o banco de dados");
+        }
+        $sql = "SELECT * From informacoes ORDER BY id";
+        $registros = mysqli_query($conn, $sql);
+        while ($registro = mysqli_fetch_array($registros) ){
+          echo("$registro[local]");
+        }    
+      ?></p>
+      <a href="pontos.php" class="btn btn-primary">Pontos</a>
+    </div>
+</div>
 <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
