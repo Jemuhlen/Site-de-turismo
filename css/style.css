@@ -1,6 +1,11 @@
 html, body{
   height: 100%;
   width: 100%;
+  
+}
+
+.body{
+  background-color: red;
 }
 
 .navbar{
@@ -130,7 +135,6 @@ p{
   }
 }
 
-
 .footer {
   padding: 5% 5% 10% 5%;
   width: 100vw;
@@ -158,13 +162,6 @@ p{
   border: 3px solid #383838;
 }
 
-.bloco{
-  color: rgb(16, 44, 77);
-  background-color: #b3b8b9;
-  margin-left: 300px;
-  margin-right: 300px;
-  box-sizing: 20px;
-}
 .button{
   background-color: #ffffff;
   border: 1px solid #000000;
