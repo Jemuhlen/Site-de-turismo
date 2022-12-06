@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -36,15 +35,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#mapa">Mapa</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pontos turísticos
-                </a>
-                <ul class="dropdown-menu">  <!--DROPDOWN MENU-->
-                  <li><a class="dropdown-item" href="#chuvisqueiro">Ponto 1</a></li>
-                  <li><a class="dropdown-item" href="#cascata">Ponto 2</a></li>
-                  <li><a class="dropdown-item" href="#rio">Ponto 3</a></li>
-                </ul>
+              <li class="nav-item">
+                  <a class="nav-link" href="#pontos-turisticos">Pontos Turísticos</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#sobre">Sobre</a>
                 </li>
@@ -58,7 +51,7 @@
 
     <main>      
     <div class="container-fluid"> 
-        <div  id="carouselExampleIndicators" class="carousel-slide" data-bs-ride="carousel">
+        <div  id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="img/banner1.png" class="d-block w-100" alt="...">
@@ -117,7 +110,7 @@
       <a href="pontos.php" class="btn btn-primary">Pontos</a>
     </div>
 </div>
-<section class="py-5 text-center container">
+<section class="py-5 text-center container" id="pontos-turisticos">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">Album example</h1>
@@ -126,7 +119,7 @@
     </div>
   </section>
 
-  <div class="album py-5 bg-light">
+  <div class="pontos">
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -281,6 +274,10 @@
   </div>
 </div>
  
+<div class="sobre" id="sobre">
+  <h1>Sobre</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolores quis sequi ea modi perferendis quidem, perspiciatis minus suscipit recusandae consequatur eaque dolor provident exercitationem optio atque laborum cupiditate. Repellendus!</p>
+</div>
 
 <!--PARTE DO PHP-->
 <?php
