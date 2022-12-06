@@ -1,19 +1,13 @@
 html, body{
-  margin: 0px;
-  padding: 0;
   height: 100%;
   width: 100%;
 }
 
 .navbar{
-  background-color: #0a0a0a9a;
+  background-color: #ffffffbb;
   padding: 1% 0;
   font-size: 15px;
   height: 55px;
-}
-
-.nav-{
-  background-color: #0a0a0a9a;
 }
 
 .navbar-brand{
@@ -22,7 +16,7 @@ html, body{
 }
 
 .navbar a{
-  color: #ffff;
+  color: #000000;
 }
 
 .icone{
@@ -35,11 +29,11 @@ html, body{
 }
 
 .dropdown-menu{
-  background-color: #000000ac;
+  background-color: #ffffffe3;
 }
 
 .dropdown-item{
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .container-fluid {
@@ -67,7 +61,53 @@ html, body{
   margin-left: 10px;
   margin-right: 10px;
 }
-.mapa, .cascata, .sobre, .sugestao h1{
+
+.mapa{
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*ALBUM*/
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+
+
+
+
+.sobre, .pontos-turisticos, .sugestao h1{
   text-align: center;
 }
 
@@ -116,4 +156,26 @@ p{
   background-color: #c1b6a19f;
   border-radius: 20px;
   border: 3px solid #383838;
+}
+
+.bloco{
+  color: rgb(16, 44, 77);
+  background-color: #b3b8b9;
+  margin-left: 300px;
+  margin-right: 300px;
+  box-sizing: 20px;
+}
+.button{
+  background-color: #ffffff;
+  border: 1px solid #000000;
+     border-radius: 3px;
+     box-shadow: 0 2px 0 rgba(0, 0, 0, .3),
+                   0 2px 5px rgba(0, 0, 0, 0.2);
+     color: #000000;
+     display: block;
+     font-size: 14px;
+     text-shadow:1px 1px 0 #FFF;
+     padding:auto;
+     width: 80px;
+     height: 35px;
 }
