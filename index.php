@@ -53,12 +53,24 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="img/banner1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Morro Grande</h5>
+                  <p>Autor: Josef Ponciano</p>
+                </div>
             </div>
             <div class="carousel-item">
               <img src="img/banner2.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Mascarada</h5>
+                  <p>Autor: Gracieli Fiedler</p>
+                </div>
             </div>
             <div class="carousel-item">
               <img src="img/banner3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Morro Grande</h5>
+                    <p>Autor: Cristiano Reis</p>
+                  </div>
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -245,13 +257,9 @@
 </div>
  
 <div class="sobre" id="sobre">
-  <h1>Sobre</h1>
-  <p>Projeto desenvolvido por alunos do IFRS - Campus Rolantes para a disciplina de Projeto Integrador II durante o ano de 2022. O site consiste num guia turístico que vise facilitar o acesso aos locais de lazer na cidade de Rolante no Rio Grande do Sul. Para aqueles que se interessam por conhecer lugares novos, o site "Turismo em Rolante" foi feito para auxiliá-los, de forma com que agrupe as informações necessárias e objetivas num só lugar.</p>
-
-    </div>                
-</div>
-
-</div>
+<h1 class="fw-light">Sobre</h1>
+  <p class="lead text-muted">Projeto desenvolvido por alunos do IFRS - Campus Rolante para a disciplina de Projeto Integrador II durante o ano de 2022. O site consiste num guia turístico que vise facilitar o acesso aos locais de lazer na cidade de Rolante no Rio Grande do Sul. Para aqueles que se interessam por conhecer lugares novos, o site "Turismo em Rolante" foi feito para auxiliá-los, de forma com que agrupe as informações necessárias e objetivas num só lugar. <br><br>Conheça o mundo <a href="https://ifrs.edu.br/">IFRS</a>.</p>
+</div>                
 
 <!--PARTE DO PHP-->
 <?php
@@ -260,6 +268,7 @@
 
 <form method="POST">
   <div class="sugestao" id="sugestao">
+  <h1 class="fw-light">Deixe aqui sua sugestão!</h1>
     <div class="mb-3">
       <label for="exampleFormControlInput1" class="form-label">Coloque seu nome completo</label>
       <input type="nome" name="nome" class="form-control" id="exampleFormControlInput1" placeholder=>
@@ -314,16 +323,15 @@ if (isset($_POST['enviar']) == true) {
     
   </div>
 
-  <footer>
+<footer class="py-3 my-4">
     <div class="container">
-  <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a href="#carouselExampleIndicators" class="nav-link px-2 text-muted">Início</a></li>
       <li class="nav-item"><a href="#pontos-turisticos" class="nav-link px-2 text-muted">Pontos Turísticos</a></li>
     </ul>
     <p class="text-center text-muted">&copy; 2022 - IFRS Campus Rolante - Informática 4 </p>
-  </footer>
-</div>
+    </div>
+</footer>
   <script> src="js/swiper-bundle.min.js"</script>
   <script> src="js/script.js"</script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
