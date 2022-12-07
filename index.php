@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
- <title>Turismo em Rolante</title>
-  <script type="text/javascript" src="../js/jquery.js"></script>
-  <link rel="stylesheet" href="css/swiper-bundle.min.css">
- </head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Turismo em Rolante</title>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
 
 
  <body>
@@ -23,8 +23,8 @@
     <div id="start">
       <nav class="navbar fixed-top navbar-expand-lg">
           <a class="navbar-brand active" href="#start"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-signpost-split-fill" viewBox="0 0 16 16"> <path d="M7 16h2V6h5a1 1 0 0 0 .8-.4l.975-1.3a.5.5 0 0 0 0-.6L14.8 2.4A1 1 0 0 0 14 2H9v-.586a1 1 0 0 0-2 0V7H2a1 1 0 0 0-.8.4L.225 8.7a.5.5 0 0 0 0 .6l.975 1.3a1 1 0 0 0 .8.4h5v5z"/></svg></a>
+          
 
-	      
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
@@ -55,7 +55,7 @@
               <img src="img/banner1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="img/banner1.png" class="d-block w-100" alt="...">
+              <img src="img/banner2.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
               <img src="img/banner3.png" class="d-block w-100" alt="...">
@@ -198,18 +198,17 @@
         <div class="col">
           <div class="card shadow-sm">
           <img src="img/1670350725.jpeg">
-
             <div class="card-body">
               <p class="card-text">Vinhos Dei Lazzari</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <a href="pontos/lazzari.php" class="btn btn-pontos">ver</a>
-                  
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div class="col">
           <div class="card shadow-sm">
           <img src="img/finger.jpg" >
@@ -230,7 +229,7 @@
           <img src="img/1670351210.jpeg" width="420px" height="200px">
 
             <div class="card-body">
-              <p class="card-text">Morri Grande</p>
+              <p class="card-text">Morro Grande</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                 <a href="pontos/morro.php" class="btn btn-pontos">ver</a>
@@ -247,7 +246,11 @@
  
 <div class="sobre" id="sobre">
   <h1>Sobre</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolores quis sequi ea modi perferendis quidem, perspiciatis minus suscipit recusandae consequatur eaque dolor provident exercitationem optio atque laborum cupiditate. Repellendus!</p>
+  <p>Projeto desenvolvido por alunos do IFRS - Campus Rolantes para a disciplina de Projeto Integrador II durante o ano de 2022. O site consiste num guia turístico que vise facilitar o acesso aos locais de lazer na cidade de Rolante no Rio Grande do Sul. Para aqueles que se interessam por conhecer lugares novos, o site "Turismo em Rolante" foi feito para auxiliá-los, de forma com que agrupe as informações necessárias e objetivas num só lugar.</p>
+
+    </div>                
+</div>
+
 </div>
 
 <!--PARTE DO PHP-->
@@ -316,15 +319,11 @@ if (isset($_POST['enviar']) == true) {
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a href="#carouselExampleIndicators" class="nav-link px-2 text-muted">Início</a></li>
-      <li class="nav-item"><a href="#pontosturisticos" class="nav-link px-2 text-muted">Pontos Turísticos</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      <li class="nav-item"><a href="#pontos-turisticos" class="nav-link px-2 text-muted">Pontos Turísticos</a></li>
     </ul>
-    <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
+    <p class="text-center text-muted">&copy; 2022 - IFRS Campus Rolante - Informática 4 </p>
   </footer>
 </div>
-</footer>
   <script> src="js/swiper-bundle.min.js"</script>
   <script> src="js/script.js"</script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
