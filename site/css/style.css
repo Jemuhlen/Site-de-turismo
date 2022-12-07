@@ -1,0 +1,183 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  
+}
+
+.body{
+  background-color: red;
+}
+
+.navbar{
+  background-color: #ffffffbb;
+  padding: 1% 0;
+  font-size: 15px;
+  height: 55px;
+}
+
+.navbar-brand{
+  min-height: 40px;
+  padding: 0 15px 5px;
+}
+
+.navbar a{
+  color: #000000;
+}
+
+.icone{
+  width: 40px;
+  margin-left: 10px;
+}
+
+.nav-item{
+  padding: 3px;
+}
+
+.dropdown-menu{
+  background-color: #ffffffe3;
+}
+
+.dropdown-item{
+  color: rgb(0, 0, 0);
+}
+
+.container-fluid {
+    padding: 0;
+  }
+
+.d-block{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.carousel-item{
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-inner, .carousel-item {
+  padding: 0%;
+}
+
+.mapa, .chuvisqueiro, .cascata, .rio, .sugestao, .sobre{
+  min-height: 100vh;
+  padding-top: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mapa{
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.btn-pontos{
+  background-color: red;
+}
+.pontos-turisticos img{
+  width:420px;
+  height:200px;
+}
+/*ALBUM*/
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+
+
+
+
+.sobre, .pontos-turisticos, .sugestao h1{
+  text-align: center;
+}
+
+.clearfix{
+  padding: 10px;
+}
+
+p{
+  font-size: 15px;
+  text-align: justify;
+}
+
+@media(max-width: 700px){
+  .clearfix{
+    padding-top: 0px ;
+  }
+  .image{
+    width: 90vw;
+    align-items: center;
+  }
+}
+
+.footer {
+  padding: 5% 5% 10% 5%;
+  width: 100vw;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c1b6a19f #383838;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+
+*::-webkit-scrollbar-track {
+  background: #383838;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c1b6a19f;
+  border-radius: 20px;
+  border: 3px solid #383838;
+}
+
+.button{
+  background-color: #ffffff;
+  border: 1px solid #000000;
+     border-radius: 3px;
+     box-shadow: 0 2px 0 rgba(0, 0, 0, .3),
+                   0 2px 5px rgba(0, 0, 0, 0.2);
+     color: #000000;
+     display: block;
+     font-size: 14px;
+     text-shadow:1px 1px 0 #FFF;
+     padding:auto;
+     width: 80px;
+     height: 35px;
+}
