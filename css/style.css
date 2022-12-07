@@ -72,6 +72,7 @@ html, body{
   padding: 0;
   margin: 0;
 }
+
 .btn-pontos{
   background-color: red;
 }
@@ -102,6 +103,7 @@ html, body{
   box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
+
 .b-example-vr {
   flex-shrink: 0;
   width: 1.5rem;
@@ -109,14 +111,45 @@ html, body{
 }
 
 .bi {
-  vertical-align: -.125em;
+  vertical-align: -.100em;
   fill: currentColor;
 }
-
-
-
-
-
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 0.5px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+font-size: 1rem;
+font-weight: 400;
+line-height: center;
+margin: 10px;
+padding: 1.2em 2.8em;
+text-decoration: none;
+text-align: center;
+text-transform: uppercase;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+.first {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
 .sobre, .pontos-turisticos, .sugestao h1{
   text-align: center;
 }
