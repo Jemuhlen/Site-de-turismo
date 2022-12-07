@@ -14,10 +14,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
  <title>Turismo em Rolante</title>
   <script type="text/javascript" src="../js/jquery.js"></script>
-
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
-
-
  </head>
 
 
@@ -25,8 +22,9 @@
   <header> 
     <div id="start">
       <nav class="navbar fixed-top navbar-expand-lg">
-          <a class="navbar-brand active" href="#start"><img src="" class="icone"></a> <!--tem que colocar uma logo--> </svg>
+          <a class="navbar-brand active" href="#start"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-signpost-split-fill" viewBox="0 0 16 16"> <path d="M7 16h2V6h5a1 1 0 0 0 .8-.4l.975-1.3a.5.5 0 0 0 0-.6L14.8 2.4A1 1 0 0 0 14 2H9v-.586a1 1 0 0 0-2 0V7H2a1 1 0 0 0-.8.4L.225 8.7a.5.5 0 0 0 0 .6l.975 1.3a1 1 0 0 0 .8.4h5v5z"/></svg></a>
 
+	      
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
