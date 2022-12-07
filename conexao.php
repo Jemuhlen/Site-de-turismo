@@ -5,3 +5,4 @@
 		die("Houve um erro ao conectar com o banco de dados");
 	}
 ?>
+	
